@@ -11,11 +11,3 @@ As a developer, I have to run a lot of software locally for my personal and work
 - IICAPN works on top of **docker** and runs pre-defined (but configurable) containers locally. These configurations are called **Orders**.
 - This removes the hastle of installing / configuring databases, message queues and other infra locally.
 
-## RoadMap
-
-- [ ] Basic Hard Coded "Orders" and running single instance of each order.
-- [ ] Exposing basic parameters for each "Order" like `USERNAME`, `PASSWORD`, `DBNAME` etc.
-- [ ] Add ability to attach and detach the docker containers running to the terminal.
-- [ ] Multiple instances of the same orders.
-- [ ] Creating an api to make 3rd party Orders possible.
-- [ ] Convert hardcoded orders to into plugins.
